@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Matrices 2x2</title>
+  <link rel="stylesheet" href="/css/Style.css">
+</head>
+
+<body>
+  <h1>Calculadora de Matrices 2x2</h1>
+  <div class="matriz">
+    <div class="matriz-a">
+      <p>Matriz A:</p>
+      <div class="inputs">
+        <div>
+          <input type="number" id="m1-c1-f1" placeholder="c1f1">
+          <input type="number" id="m1-c1-f2" placeholder="c1f2">
+        </div>
+        <div>
+          <input type="number" id="m1-c2-f1" placeholder="c2f1">
+          <input type="number" id="m1-c2-f2" placeholder="c2f2">
+        </div>
+      </div>
+    </div>
+    <div class="matriz-b">
+      <p>Matriz B:</p>
+      <div class="inputs">
+        <div>
+          <input type="number" id="m2-c1-f1" placeholder="c1f1">
+          <input type="number" id="m2-c1-f2" placeholder="c1f2">
+        </div>
+        <div>
+          <input type="number" id="m2-c2-f1" placeholder="c2f1">
+          <input type="number" id="m2-c2-f2" placeholder="c2f2">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="results">
+    <button id="btnCalcular">Calcular</button>
+    <div class="cajaResultado">
+      <p>Resultado:</p>
+      <p id="resultadoMultiplicacion"></p>
+      <div class="resultado-matriz" id="resultadoMatriz">
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/js/Logica.js"></script>
+</body>
+
+</html>
